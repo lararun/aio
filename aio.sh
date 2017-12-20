@@ -22,7 +22,7 @@ run_web(){
 
 run_queue(){
 	echo "Start Queue Module ... "
-	if [  -f "/home/artisan" ]; then
+	if [ ! -f "/home/artisan" ]; then
 		echo "Artisan Not Fount ..."
 		exit;
 	fi
