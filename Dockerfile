@@ -1,3 +1,3 @@
 FROM lararun/web
-COPY aio.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+COPY aio.sh /run.sh
+ENTRYPOINT ["/run.sh"]

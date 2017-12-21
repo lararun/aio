@@ -46,5 +46,6 @@ case $1 in
 	schedule) run_schedule ;;
 	queue) run_queue $@ ;;
 	all) run_all $@ ;;
+	sh) /bin/sh ;;
 	*) run_web ;;
 esac
